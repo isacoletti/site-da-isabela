@@ -1,0 +1,131 @@
+/* Fundo roxo */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #9177A8;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* Títulos com letras verdes */
+h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: #B0D278;
+}
+
+.monte {
+    color: #B0D278; /* Verde claro */
+   
+}
+
+
+.acai {
+    color: #D678AF; /* Cor mais suave para "Açaí" */
+
+}
+
+/* Seções de opções */
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.size, .flavors {
+    flex: 1;
+    padding: 20px;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #B0D278; /* Verde igual ao da imagem */
+}
+
+.cup-sizes {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.cup-img {
+    width: 650px;
+}
+
+.prices p {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #B0D278; /* Preços em verde */
+}
+
+/* Seção de acompanhamentos */
+.extras {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #775A72;
+    border-radius: 15px;
+}
+
+.extras ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.extras ul li {
+    margin: 5px 0;
+    font-size: 1.7rem;
+}
+
+/* Galeria de imagens */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;   
+}
+
+.gallery img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #5C4A5E;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 1.8rem;
+    color: #B0D278; /* Total a pagar em verde */
+}
+
+.sabores {
+    margin-top: 150px;
+
+}
